@@ -1,0 +1,15 @@
+DROP TABLE Account;
+
+CREATE TABLE Account
+		(ID NUMBER(18),
+		 Username VARCHAR2(20),
+		 Password VARCHAR2(20),
+                 Gendar VARCHAR2(20),
+                 Age NUMBER(10),
+		 Email VARCHAR(20),
+		 Phone NUMBER(18)
+		);
+
+INSERT INTO Account VALUES('1','murphy','791346852','male','22','sunx@deakin.edu.au','0451576788');
+
+commit;

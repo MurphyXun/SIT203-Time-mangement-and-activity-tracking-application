@@ -1,0 +1,12 @@
+DROP TABLE Activity;
+
+CREATE TABLE Activity
+		(
+                 Name VARCHAR2(20),
+		 ActivityDate NUMBER(16),
+		 StartTime NUMBER(8),
+		 EndTime NUMBER(8),
+		 Note VARCHAR(50)
+		);
+
+commit;
